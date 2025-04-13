@@ -37,14 +37,15 @@ cd visual-ai-assistant
 
 Make sure you're using Python 3.10 or above.
 
-bash
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
 
 ### `requirements.txt` includes:
 
-`pyautogui
-keyboard
-openai`
+pyautogui \n
+keyboard \n
+openai
+```
 
 > 📌 Note: This script uses `Tkinter`, which is built into Python's standard library.
 
@@ -52,14 +53,15 @@ openai`
 
 1.  Set your OpenAI API key inside the script:
 
-python
-`client = OpenAI(api_key="your-api-key-here")`
+```python
+client = OpenAI(api_key="your-api-key-here")
+```
 
 1.  Run the application:
 
-bash
-
-`python visual_ai_assistant.py`
+```bash
+python visual_ai_assistant.py
+```
 
 1.  Press `Ctrl + Shift + H` to activate the assistant.
 
@@ -73,6 +75,7 @@ bash
 
 ## 📸 How It Works
 
+```python
 | Step                 | What Happens                                |
 | -------------------- | ------------------------------------------- |
 | 🔥 Hotkey Trigger    | Starts the region selection                 |
@@ -81,16 +84,19 @@ bash
 | ✍️ Ask AI            | Enter your question                         |
 | 🧠 GPT-4o            | OpenAI processes image + query              |
 | 📥 AI Response       | Answer shown in popup window                |
+```
 
 ---
 
 ## 📂 Project Structure
 
+```python
 visual-ai-assistant/
 │
 ├── visual_ai_assistant.py # Main script
 ├── capture.png # Temporary screenshot
 └── README.md # Project documentation
+```
 
 ## 💡 Use Cases
 
