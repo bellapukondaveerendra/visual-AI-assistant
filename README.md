@@ -38,9 +38,6 @@ cd visual-ai-assistant
 Make sure you're using Python 3.10 or above.
 
 bash
-
-CopyEdit
-
 `pip install -r requirements.txt`
 
 ### `requirements.txt` includes:
@@ -56,16 +53,11 @@ openai`
 1.  Set your OpenAI API key inside the script:
 
 python
-
-CopyEdit
-
 `client = OpenAI(api_key="your-api-key-here")`
 
 1.  Run the application:
 
 bash
-
-CopyEdit
 
 `python visual_ai_assistant.py`
 
@@ -94,15 +86,11 @@ CopyEdit
 
 ## 📂 Project Structure
 
-bash
-
-`visual-ai-assistant/
+visual-ai-assistant/
 │
 ├── visual_ai_assistant.py # Main script
 ├── capture.png # Temporary screenshot
-└── README.md
-
----
+└── README.md # Project documentation
 
 ## 💡 Use Cases
 
