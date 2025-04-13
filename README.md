@@ -127,4 +127,4 @@ MIT License -- free to use and modify.
 ## 👨‍💻 Built By
 
 **Veerendra Bellapukonda**\
-[LinkedIn](https://www.linkedin.com/in/veerendra-bellapukonda-3a1245235/) - [GitHub](github.com/bellapukondaveerendra) - [Portfolio](https://bellapukondaveerendra.github.io/my-portfolio/)
+[LinkedIn](https://www.linkedin.com/in/veerendra-bellapukonda-3a1245235/) - [Portfolio](https://bellapukondaveerendra.github.io/my-portfolio/)
